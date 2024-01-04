@@ -1,0 +1,236 @@
+
+{
+  "users": [ { "id": "1", "username": "user1", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+  { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567892" },
+  { "id": "3", "username": "user3", "password": "long8short8", "role": "admin", "phoneNumber": "1234567893" },
+  { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+  { "id": "5", "username": "user5", "password": "long8short8", "role": "driver", "phoneNumber": "1234567895" },
+  { "id": "6", "username": "user6", "password": "long8short8", "role": "driver", "phoneNumber": "1234567896" },
+  { "id": "7", "username": "user7", "password": "long8short8", "role": "passenger", "phoneNumber": "1234567897" },
+  { "id": "8", "username": "user8", "password": "long8short8", "role": "passenger", "phoneNumber": "1234567898" },
+  { "id": "9", "username": "user9", "password": "long8short8", "role": "passenger", "phoneNumber": "1234567899" },
+  { "id": "10", "username": "user10", "password": "long8short8", "role": "passenger", "phoneNumber": "1234567810" },
+  { "id": "11", "username": "user11", "password": "Same for all", "role": "passenger", "phoneNumber": "1234567811" },
+  { "id": "12", "username": "user12", "password": "Same for all", "role": "passenger", "phoneNumber": "1234567812" }
+]
+  ,
+  "drivers": [
+    {
+      "id": "1",
+      "user": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "vehicle": { "id": "1", "name": "Vehicle1" },
+      "morningRides": [],
+      "afternoonRides": [],
+      "eveningRides": []
+    },
+    {
+      "id": "2",
+      "user": { "id": "5", "username": "user5", "password": "long8short8", "role": "driver", "phoneNumber": "1234567895" },
+      "vehicle": { "id": "2", "name": "Vehicle2" },
+      "morningRides": [],
+      "afternoonRides": [],
+      "eveningRides": []
+    },
+    {
+      "id": "3",
+      "user": { "id": "6", "username": "user6", "password": "long8short8", "role": "driver", "phoneNumber": "1234567896" },
+      "vehicle": { "id": "3", "name": "Vehicle3" }
+    }
+  ],
+  "locations": [
+    { "id": "1", "name": "Location1", "distance": 7 },
+    { "id": "2", "name": "Location2", "distance": 4 },
+    { "id": "3", "name": "Location3", "distance": 10 },
+    { "id": "4", "name": "Location4", "distance": 8 },
+    { "id": "5", "name": "Location5", "distance": 6 },
+    { "id": "6", "name": "Location6", "distance": 3 },
+    { "id": "7", "name": "Location7", "distance": 5 },
+    { "id": "8", "name": "Location8", "distance": 9 },
+    { "id": "9", "name": "Location9", "distance": 2 },
+    { "id": "10", "name": "Location10", "distance": 7 }
+  ],
+  "vehicle":[
+    { "id": "1", "name": "Vehicle1", "seatCount": 3 },
+    { "id": "2", "name": "Vehicle2", "seatCount": 4 },
+    { "id": "3", "name": "Vehicle3", "seatCount": 3 }
+  ],
+  "rides":[
+    {
+      "id": "1",
+      "passenger": { "id": "1", "username": "user1", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "9.50",
+      "batch":"FN",  
+      "date": "10-11-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "2",
+      "passenger": { "id": "1", "username": "user1", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "13.00",
+      "batch":"FN",  
+      "date": "10-11-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "3",
+      "passenger": { "id": "1", "username": "user1", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "9.50",
+      "batch":"FN",  
+      "date": "11-11-22",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "4",
+      "passenger": { "id": "1", "username": "user1", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "9.50",
+      "batch":"FN",  
+      "date": "11-11-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "5",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567892" },
+      "locationDetails": { "id": "2", "name": "Location2", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "9.50",
+      "batch":"FN",  
+      "date": "13-11-1022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "6",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "13.00",
+      "batch":"AN",  
+      "date": "15-08-23",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "7",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "10.00",
+      "batch":"FN",  
+      "date": "10-11-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "8",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "9",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "10",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "11",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "12",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "13",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "14",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    },
+    {
+      "id": "15",
+      "passenger": { "id": "2", "username": "user2", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+      "locationDetails": { "id": "1", "name": "Location1", "distance": 7 },
+      "driver": { "id": "4", "username": "user4", "password": "long8short8", "role": "driver", "phoneNumber": "1234567894" },
+      "time": "2.00",
+      "batch":"AN",  
+      "date": "15-12-2022",
+      "from":"home",
+      "to": "office"
+    }
+  ],
+  "passengers" : [
+      {
+        "id": "1",
+        "user": { "id": "1", "username": "user1", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+        "locationDetails": { "id": "1", "name": "Location1", "distance": 7 }
+      },
+      {
+        "id": "2",
+        "user": { "id": "1", "username": "user1", "password": "long8short8", "role": "admin", "phoneNumber": "1234567891" },
+        "locationDetails": { "id": "1", "name": "Location1", "distance": 7 }
+      }
+  ]
+}

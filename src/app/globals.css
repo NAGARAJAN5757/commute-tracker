@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+	.in-container {
+		@apply flex flex-col items-center;
+	}
+}
+@layer components {
+	.out-container {
+		@apply p-8 pt-4 flex flex-col justify-center sm:flex-nowrap flex-wrap w-[100%];
+	}
+}
